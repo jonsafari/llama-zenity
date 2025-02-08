@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Llama-Zenity
+Exec=/home/User/src/llama-zenity/llama-zenity.sh '/home/User/src/llama.cpp/build/bin/'
+Comment=
+Terminal=true
+PrefersNonDefaultGPU=false
+Icon=fluxgui
+Type=Application
