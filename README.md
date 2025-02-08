@@ -1,5 +1,7 @@
 # Llama-Zenity: A Simple GUI to Launch Llama.cpp
 
+<p align="center"> <img src="https://github.com/user-attachments/assets/56e09667-4f7c-4584-a312-1d79db10effb" /> </p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
