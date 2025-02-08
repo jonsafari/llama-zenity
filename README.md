@@ -1,11 +1,11 @@
-# Llama-Zenity: A Simple GUI to Invoke Llama-Server
+# Llama-Zenity: A Simple GUI to Launch Llama.cpp
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Overview
 
-Llama-Zenity is a simple graphical interface to launch Llama-Server. It only asks which model you want to use, the temperature, and the number of GPU layers.
+Llama-Zenity is a simple graphical interface to launch Llama.cpp . It only asks which model you want to use, the temperature, and the number of GPU layers.
 
 
 ## Linux Installation
