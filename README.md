@@ -16,15 +16,15 @@ Llama-Zenity is a simple graphical interface to launch Llama-Server. It only ask
 ### Install
 1. Edit Llama-Zenity.desktop in the line Exec. Make sure your home directory is correct (probably not just `User`). Also make sure the paths to this repository and to the `llama.cpp` repository are correct.
 
-    editor Llama-Zenity.desktop
+      editor Llama-Zenity.desktop
 
 2. I recommend storing your GGUF model files in directory called `models` under your home directory (i.e. `$HOME/models/`).  If you keep them somewhere else, you can modify `MODEL_DIR` in `llama-zenity.sh` .
 
-    editor llama-zenity.sh
+      editor llama-zenity.sh
 
 3. Copy Llama-Zenity.desktop to your desktop.
 
-    cp Llama-Zenity.desktop $HOME/Desktop/
+      cp Llama-Zenity.desktop $HOME/Desktop/
 
 That's it! Now you can click on the desktop icon and start chatting away.
 
