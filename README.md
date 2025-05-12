@@ -7,7 +7,7 @@
 
 ## Overview
 
-Llama-Zenity is a simple graphical interface to launch Llama.cpp . It only asks which model you want to use, the temperature, and the number of GPU layers.
+Llama-Zenity is a simple graphical interface to launch Llama.cpp . It asks a minimal number of questions.
 
 
 ## Linux Installation
