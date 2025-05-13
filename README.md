@@ -1,4 +1,4 @@
-# Llama-Zenity: A Simple GUI to Launch Llama.cpp
+# Llama-Zenity: A Minimal GUI to Launch Llama.cpp
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/56e09667-4f7c-4584-a312-1d79db10effb" /> </p>
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-Llama-Zenity is a simple graphical interface to launch Llama.cpp . It asks a minimal number of questions.
+Llama-Zenity is a minimal graphical interface to launch Llama.cpp .
 
 
 ## Linux Installation
