@@ -9,7 +9,7 @@ HOST='localhost'
 PORT='8080'
 
 GGUF_FILE=$(zenity --title='Select GGUF Model File' --text 'Select GGUF Model File' --file-selection --filename="$MODEL_DIR"  --file-filter='*.gguf') || exit
-MMProj_FILE=$(zenity --title='Select Optional Multimodel MMProj File' --text 'Select Optional Multimodel MMProj File' --file-selection --filename="$MODEL_DIR"  --file-filter='*mmproj*')
+MMProj_FILE=$(zenity --title='Select Optional Multimodel MMProj File' --text 'Select Optional Multimodel MMProj File' --file-selection --filename="$MODEL_DIR"  --file-filter='*mmproj* gguf')
 TEMP=$(zenity --title='Select Temperature' --text 'Select Temperature (0 is more deterministic and less creative)' --entry --entry-text=0.0) || exit
 NGL=$(zenity --title='Select Number of GPU Layers' --text 'Select Number of GPU Layers (0 if you have no GPU)' --scale --value=65 --min-value=0 --max-value=100) || exit
 
