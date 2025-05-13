@@ -20,5 +20,5 @@ fi
 
 CMD_ARGS="-ngl $NGL --temp $TEMP --model $GGUF_FILE --host ${HOST} --port ${PORT}"" ${MMProj_FILE:+ --mmproj $MMProj_FILE}"
 
-xdg-open http://${HOST}:${PORT}
+open http://${HOST}:${PORT}
 $path_to_llama_server ${CMD_ARGS}
