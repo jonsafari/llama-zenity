@@ -31,6 +31,27 @@ Llama-Zenity is a minimal graphical interface to launch Llama.cpp .
 That's it! Now you can click on the desktop icon and start chatting away.
 
 
+## MacOS Installation
+### Dependencies
+- Zenity: `brew install zenity`
+- [Llama.cpp][]: You should follow installation instructions on their website. I recommend installing into a directory called `src` under your home directory (i.e. `$HOME/src/llama.cpp/`).
+
+### Install
+1. Edit the file Llama-Zenity.command . Make sure your home directory is correct (probably not just `user`). Also make sure the paths to this repository and to the `llama.cpp` repository are correct.
+
+      open -t Llama-Zenity.command
+
+2. I recommend storing your GGUF model files in directory called `models` under your home directory (i.e. `$HOME/models/`).  If you keep them somewhere else, you can modify `MODEL_DIR` in `llama-zenity.sh` .
+
+      open -t llama-zenity.sh
+
+3. Copy Llama-Zenity.command to your desktop.
+
+      cp Llama-Zenity.command $HOME/Desktop/
+
+That's it! Now you can click on the desktop icon and start chatting away. You can also drag the icon to the dock, right of the separator.
+
+
 
 ## Contributions
 Contributions are welcome, via [pull requests][].
