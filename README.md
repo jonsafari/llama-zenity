@@ -7,7 +7,7 @@
 
 ## Overview
 
-Llama-Zenity is a minimal graphical interface to launch Llama.cpp .
+Llama-Zenity is a minimal graphical interface to launch Llama.cpp .  It works on Linux and MacOS, and maybe Windows.
 
 
 ## Linux Installation
